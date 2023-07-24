@@ -34,4 +34,3 @@ namespace Evolve.ChaseCamera.iOS
         }
     }
 }
-}
