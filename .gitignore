@@ -7,6 +7,7 @@ Configuration.OperatingSystem.props
 obj
 packages
 .DS_Store
+.mgstats
 .nuget
 *.nupkg
 TestResult.xml
