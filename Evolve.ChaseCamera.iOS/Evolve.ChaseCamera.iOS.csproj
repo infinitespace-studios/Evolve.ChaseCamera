@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-ios</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.iOS" Version="3.8.1.303" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.1.303" />
+  </ItemGroup>
+  <ItemGroup>
+     <MonoGameContentReference Include="..\Content\Content.mgcb">
+      <Link>Content\Content.mgcb</Link>
+    </MonoGameContentReference> 
+  </ItemGroup>
+  <!-- <ItemGroup>
+    <BundleResource Include="..\Content\bin\iOS\Audio\engine.xnb">
+      <Link>Content\Audio\engine.xnb</Link>
+    </BundleResource>
+    <BundleResource Include="..\Content\bin\iOS\Checker.xnb">
+      <Link>Content\Checker.xnb</Link>
+    </BundleResource>
+    <BundleResource Include="..\Content\bin\iOS\gameFont.xnb">
+      <Link>Content\gameFont.xnb</Link>
+    </BundleResource>
+    <BundleResource Include="..\Content\bin\iOS\Ship.xnb">
+      <Link>Content\Ship.xnb</Link>
+    </BundleResource>
+    <BundleResource Include="..\Content\bin\iOS\ShipDiffuse_0.xnb">
+      <Link>Content\ShipDiffuse_0.xnb</Link>
+    </BundleResource>
+  </ItemGroup> -->
+   <ItemGroup>
+   <ProjectReference Include="..\Evolve.ChaseCamera\Evolve.ChaseCamera.csproj" />
+  </ItemGroup>
+</Project>

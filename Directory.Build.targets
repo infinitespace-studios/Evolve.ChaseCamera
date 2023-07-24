@@ -1,0 +1,6 @@
+<Project>
+    <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
+        <Message Text="Restoring $(DotNetCommand) tools" Importance="High" />
+        <Exec Command="$(DotNetCommand) tool restore" />
+    </Target>
+</Project>

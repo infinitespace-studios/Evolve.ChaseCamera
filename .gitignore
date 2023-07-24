@@ -1,5 +1,6 @@
 *.userprefs
 *.user
+*.log
 bin
 Configuration.Override.props
 Configuration.OperatingSystem.props
