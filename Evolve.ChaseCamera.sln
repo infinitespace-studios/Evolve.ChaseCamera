@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolve.ChaseCamera", "Evolve.ChaseCamera\Evolve.ChaseCamera.csproj", "{C76CE1BF-51E3-4E80-87B7-990F0804BD98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolve.ChaseCamera.Droid", "Evolve.ChaseCamera.Android\Evolve.ChaseCamera.Droid.csproj", "{07B78C63-CAF9-47CA-A2C9-5D4D1AB01ECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolve.ChaseCamera.iOS", "Evolve.ChaseCamera.iOS\Evolve.ChaseCamera.iOS.csproj", "{177FDC69-EC62-47AC-AFB9-D8E5F380A21D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolve.ChaseCamera.Desktop", "Evolve.ChaseCamera.Desktop\Evolve.ChaseCamera.Desktop.csproj", "{4BDD40BC-F7CB-442F-A49D-E741B3ECFB26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C76CE1BF-51E3-4E80-87B7-990F0804BD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C76CE1BF-51E3-4E80-87B7-990F0804BD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C76CE1BF-51E3-4E80-87B7-990F0804BD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C76CE1BF-51E3-4E80-87B7-990F0804BD98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B78C63-CAF9-47CA-A2C9-5D4D1AB01ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B78C63-CAF9-47CA-A2C9-5D4D1AB01ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B78C63-CAF9-47CA-A2C9-5D4D1AB01ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B78C63-CAF9-47CA-A2C9-5D4D1AB01ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{177FDC69-EC62-47AC-AFB9-D8E5F380A21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177FDC69-EC62-47AC-AFB9-D8E5F380A21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177FDC69-EC62-47AC-AFB9-D8E5F380A21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177FDC69-EC62-47AC-AFB9-D8E5F380A21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDD40BC-F7CB-442F-A49D-E741B3ECFB26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDD40BC-F7CB-442F-A49D-E741B3ECFB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDD40BC-F7CB-442F-A49D-E741B3ECFB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDD40BC-F7CB-442F-A49D-E741B3ECFB26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
