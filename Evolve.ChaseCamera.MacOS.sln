@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolve.ChaseCamera.iOS", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolve.ChaseCamera.Desktop", "Evolve.ChaseCamera.Desktop\Evolve.ChaseCamera.Desktop.csproj", "{4BDD40BC-F7CB-442F-A49D-E741B3ECFB26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolve.ChaseCamera.Windows", "Evolve.ChaseCamera.Windows\Evolve.ChaseCamera.Windows.csproj", "{02278B1C-C1AC-4E25-9228-F13CE31B43E4}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,9 +36,5 @@ Global
 		{4BDD40BC-F7CB-442F-A49D-E741B3ECFB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BDD40BC-F7CB-442F-A49D-E741B3ECFB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BDD40BC-F7CB-442F-A49D-E741B3ECFB26}.Release|Any CPU.Build.0 = Release|Any CPU
-		{02278B1C-C1AC-4E25-9228-F13CE31B43E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02278B1C-C1AC-4E25-9228-F13CE31B43E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02278B1C-C1AC-4E25-9228-F13CE31B43E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02278B1C-C1AC-4E25-9228-F13CE31B43E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -10,7 +10,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  build_macos:
 
     runs-on: macos-latest
 
@@ -21,10 +21,28 @@ jobs:
       with:
         dotnet-version: 7.0.x
     - name: Restore Workloads
-      run: dotnet workload restore
+      run: dotnet workload restore Evolve.ChaseCamera.MacOS.sln
     - name: Restore Tools dependencies
-      run: dotnet tool restore
+      run: dotnet tool restore Evolve.ChaseCamera.MacOS.sln
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore Evolve.ChaseCamera.MacOS.sln
     - name: Build
-      run: dotnet build --no-restore -c Release
+      run: dotnet build Evolve.ChaseCamera.MacOS.sln --no-restore -c Release
+
+  build_windows:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 7.0.x
+    - name: Restore Workloads
+      run: dotnet workload restore Evolve.ChaseCamera.Windows.sln
+    - name: Restore Tools dependencies
+      run: dotnet tool restore Evolve.ChaseCamera.Windows.sln
+    - name: Restore dependencies
+      run: dotnet restore Evolve.ChaseCamera.Windows.sln
+    - name: Build
+      run: dotnet build Evolve.ChaseCamera.Windows.sln --no-restore -c Release

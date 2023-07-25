@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>$(DotNetVersionToTarget)</TargetFramework>
+    <TargetFramework>$(DotNetVersionToTarget)-windows</TargetFramework>
     <OutputType>WinExe</OutputType>
     <RollForward>Major</RollForward>
     <PublishReadyToRun>false</PublishReadyToRun>
