@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0-android</TargetFramework>
+    <TargetFramework>$(DotNetVersionToTarget)-android</TargetFramework>
     <OutputType>Exe</OutputType>
     <AndroidManifest>AndroidManifest.xml</AndroidManifest>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
