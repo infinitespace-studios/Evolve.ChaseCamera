@@ -23,7 +23,7 @@ jobs:
     - name: Restore Workloads
       run: dotnet workload restore Evolve.ChaseCamera.MacOS.sln
     - name: Restore Tools dependencies
-      run: dotnet tool restore Evolve.ChaseCamera.MacOS.sln
+      run: dotnet tool restore
     - name: Restore dependencies
       run: dotnet restore Evolve.ChaseCamera.MacOS.sln
     - name: Build
@@ -41,7 +41,7 @@ jobs:
     - name: Restore Workloads
       run: dotnet workload restore Evolve.ChaseCamera.Windows.sln
     - name: Restore Tools dependencies
-      run: dotnet tool restore Evolve.ChaseCamera.Windows.sln
+      run: dotnet tool restore
     - name: Restore dependencies
       run: dotnet restore Evolve.ChaseCamera.Windows.sln
     - name: Build
