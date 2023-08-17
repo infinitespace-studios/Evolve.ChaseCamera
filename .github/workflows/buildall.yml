@@ -19,7 +19,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: 6.0.x
+        dotnet-version: 7.0.x
     - name: Restore Workloads
       run: dotnet workload restore Evolve.ChaseCamera.MacOS.sln
     - name: Restore Tools dependencies
@@ -37,7 +37,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: 6.0.x
+        dotnet-version: 7.0.x
     - name: Restore Workloads
       run: dotnet workload restore Evolve.ChaseCamera.Windows.sln
     - name: Restore Tools dependencies
