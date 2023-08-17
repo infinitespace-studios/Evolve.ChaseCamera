@@ -1,6 +1,6 @@
 <Project>
     <PropertyGroup>
         <!-- Change this version to upgrade all projects -->
-        <DotNetVersionToTarget>net7.0</DotNetVersionToTarget>
+        <DotNetVersionToTarget>net6.0</DotNetVersionToTarget>
     </PropertyGroup>
 </Project>
