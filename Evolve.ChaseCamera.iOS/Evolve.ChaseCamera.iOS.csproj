@@ -4,6 +4,7 @@
   <PropertyGroup>
     <TargetFramework>$(DotNetVersionToTarget)-ios</TargetFramework>
     <OutputType>Exe</OutputType>
+    <MtouchLink>SdkOnly</MtouchLink>
   </PropertyGroup>
 
   <ItemGroup>
